@@ -22,6 +22,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'active_record_upsert', '~> 0.10.1'
+gem "opentelemetry-exporter-otlp", "~> 0.20"
+gem "opentelemetry-instrumentation-rails", "~> 0.19"
+gem "opentelemetry-sdk", "~> 1.0"
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
